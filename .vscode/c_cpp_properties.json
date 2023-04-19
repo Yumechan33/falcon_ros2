@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/ayumayume/ROS2_Directory/lab2_ws/install/openmanip_kinematics_interfaces/include/**",
+                "/home/ayumayume/ROS2_Directory/lab1_ws/install/lab1_interfaces/include/**",
+                "/home/ayumayume/ROS2_Directory/pun_ws/install/my_first_package/include/**",
+                "/home/ayumayume/MBSE/for_seding_v1/install/xicro_interfaces/include/**",
+                "/opt/ros/foxy/include/**",
+                "/home/ayumayume/open_topic/falcon_ros2/src/falcon_control/include/**",
+                "/home/ayumayume/open_topic/falcon_ros2/src/libnifalcon/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/build/falcon_control/rosidl_generator_cpp/falcon_control"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
