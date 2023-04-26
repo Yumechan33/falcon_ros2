@@ -105,5 +105,6 @@
         "hash_set": "cpp",
         "unordered_set": "cpp"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "ros.distro": "foxy"
 }
